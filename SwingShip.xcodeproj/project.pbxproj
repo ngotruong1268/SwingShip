@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7415C831CCC81FB00367449 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7415C821CCC81FB00367449 /* AVFoundation.framework */; };
+		E77B0F561CCDB9C0009DC347 /* Sharazan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77B0F551CCDB9C0009DC347 /* Sharazan.mp3 */; };
+		E79A69501CCA0D2B0065EB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A694F1CCA0D2B0065EB15 /* main.m */; };
+		E79A69531CCA0D2B0065EB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A69521CCA0D2B0065EB15 /* AppDelegate.m */; };
+		E79A69561CCA0D2B0065EB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A69551CCA0D2B0065EB15 /* ViewController.m */; };
+		E79A69591CCA0D2B0065EB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A69571CCA0D2B0065EB15 /* Main.storyboard */; };
+		E79A695B1CCA0D2B0065EB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A695A1CCA0D2B0065EB15 /* Assets.xcassets */; };
+		E79A695E1CCA0D2B0065EB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A695C1CCA0D2B0065EB15 /* LaunchScreen.storyboard */; };
+		E79A69691CCA0D2B0065EB15 /* SwingShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A69681CCA0D2B0065EB15 /* SwingShipTests.m */; };
+		E79A69741CCA0D2B0065EB15 /* SwingShipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A69731CCA0D2B0065EB15 /* SwingShipUITests.m */; };
+		E79A69871CCA12170065EB15 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E79A69821CCA12170065EB15 /* 1.png */; };
+		E79A69881CCA12170065EB15 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E79A69831CCA12170065EB15 /* 2.png */; };
+		E79A69891CCA12170065EB15 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E79A69841CCA12170065EB15 /* 3.png */; };
+		E79A698B1CCA12170065EB15 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = E79A69861CCA12170065EB15 /* ship.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79A69651CCA0D2B0065EB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79A69431CCA0D2B0065EB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79A694A1CCA0D2B0065EB15;
+			remoteInfo = SwingShip;
+		};
+		E79A69701CCA0D2B0065EB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79A69431CCA0D2B0065EB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79A694A1CCA0D2B0065EB15;
+			remoteInfo = SwingShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7415C821CCC81FB00367449 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E77B0F551CCDB9C0009DC347 /* Sharazan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sharazan.mp3; sourceTree = "<group>"; };
+		E79A694B1CCA0D2B0065EB15 /* SwingShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A694F1CCA0D2B0065EB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79A69511CCA0D2B0065EB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E79A69521CCA0D2B0065EB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E79A69541CCA0D2B0065EB15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E79A69551CCA0D2B0065EB15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E79A69581CCA0D2B0065EB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79A695A1CCA0D2B0065EB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79A695D1CCA0D2B0065EB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79A695F1CCA0D2B0065EB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A69641CCA0D2B0065EB15 /* SwingShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A69681CCA0D2B0065EB15 /* SwingShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipTests.m; sourceTree = "<group>"; };
+		E79A696A1CCA0D2B0065EB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A696F1CCA0D2B0065EB15 /* SwingShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A69731CCA0D2B0065EB15 /* SwingShipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipUITests.m; sourceTree = "<group>"; };
+		E79A69751CCA0D2B0065EB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A69821CCA12170065EB15 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E79A69831CCA12170065EB15 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E79A69841CCA12170065EB15 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E79A69861CCA12170065EB15 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79A69481CCA0D2B0065EB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7415C831CCC81FB00367449 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A69611CCA0D2B0065EB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A696C1CCA0D2B0065EB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79A69421CCA0D2B0065EB15 = {
+			isa = PBXGroup;
+			children = (
+				E7415C821CCC81FB00367449 /* AVFoundation.framework */,
+				E79A694D1CCA0D2B0065EB15 /* SwingShip */,
+				E79A69671CCA0D2B0065EB15 /* SwingShipTests */,
+				E79A69721CCA0D2B0065EB15 /* SwingShipUITests */,
+				E79A694C1CCA0D2B0065EB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79A694C1CCA0D2B0065EB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79A694B1CCA0D2B0065EB15 /* SwingShip.app */,
+				E79A69641CCA0D2B0065EB15 /* SwingShipTests.xctest */,
+				E79A696F1CCA0D2B0065EB15 /* SwingShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79A694D1CCA0D2B0065EB15 /* SwingShip */ = {
+			isa = PBXGroup;
+			children = (
+				E79A69511CCA0D2B0065EB15 /* AppDelegate.h */,
+				E79A69521CCA0D2B0065EB15 /* AppDelegate.m */,
+				E79A69541CCA0D2B0065EB15 /* ViewController.h */,
+				E79A69551CCA0D2B0065EB15 /* ViewController.m */,
+				E79A69571CCA0D2B0065EB15 /* Main.storyboard */,
+				E79A695A1CCA0D2B0065EB15 /* Assets.xcassets */,
+				E79A695C1CCA0D2B0065EB15 /* LaunchScreen.storyboard */,
+				E79A69811CCA11F80065EB15 /* ImageSwingShip */,
+				E79A695F1CCA0D2B0065EB15 /* Info.plist */,
+				E79A694E1CCA0D2B0065EB15 /* Supporting Files */,
+			);
+			path = SwingShip;
+			sourceTree = "<group>";
+		};
+		E79A694E1CCA0D2B0065EB15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79A694F1CCA0D2B0065EB15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E79A69671CCA0D2B0065EB15 /* SwingShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79A69681CCA0D2B0065EB15 /* SwingShipTests.m */,
+				E79A696A1CCA0D2B0065EB15 /* Info.plist */,
+			);
+			path = SwingShipTests;
+			sourceTree = "<group>";
+		};
+		E79A69721CCA0D2B0065EB15 /* SwingShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79A69731CCA0D2B0065EB15 /* SwingShipUITests.m */,
+				E79A69751CCA0D2B0065EB15 /* Info.plist */,
+			);
+			path = SwingShipUITests;
+			sourceTree = "<group>";
+		};
+		E79A69811CCA11F80065EB15 /* ImageSwingShip */ = {
+			isa = PBXGroup;
+			children = (
+				E77B0F551CCDB9C0009DC347 /* Sharazan.mp3 */,
+				E79A69821CCA12170065EB15 /* 1.png */,
+				E79A69831CCA12170065EB15 /* 2.png */,
+				E79A69841CCA12170065EB15 /* 3.png */,
+				E79A69861CCA12170065EB15 /* ship.png */,
+			);
+			name = ImageSwingShip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79A694A1CCA0D2B0065EB15 /* SwingShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A69781CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShip" */;
+			buildPhases = (
+				E79A69471CCA0D2B0065EB15 /* Sources */,
+				E79A69481CCA0D2B0065EB15 /* Frameworks */,
+				E79A69491CCA0D2B0065EB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwingShip;
+			productName = SwingShip;
+			productReference = E79A694B1CCA0D2B0065EB15 /* SwingShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79A69631CCA0D2B0065EB15 /* SwingShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A697B1CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShipTests" */;
+			buildPhases = (
+				E79A69601CCA0D2B0065EB15 /* Sources */,
+				E79A69611CCA0D2B0065EB15 /* Frameworks */,
+				E79A69621CCA0D2B0065EB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79A69661CCA0D2B0065EB15 /* PBXTargetDependency */,
+			);
+			name = SwingShipTests;
+			productName = SwingShipTests;
+			productReference = E79A69641CCA0D2B0065EB15 /* SwingShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79A696E1CCA0D2B0065EB15 /* SwingShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A697E1CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShipUITests" */;
+			buildPhases = (
+				E79A696B1CCA0D2B0065EB15 /* Sources */,
+				E79A696C1CCA0D2B0065EB15 /* Frameworks */,
+				E79A696D1CCA0D2B0065EB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79A69711CCA0D2B0065EB15 /* PBXTargetDependency */,
+			);
+			name = SwingShipUITests;
+			productName = SwingShipUITests;
+			productReference = E79A696F1CCA0D2B0065EB15 /* SwingShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79A69431CCA0D2B0065EB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ngotruong;
+				TargetAttributes = {
+					E79A694A1CCA0D2B0065EB15 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+					};
+					E79A69631CCA0D2B0065EB15 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E79A694A1CCA0D2B0065EB15;
+					};
+					E79A696E1CCA0D2B0065EB15 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E79A694A1CCA0D2B0065EB15;
+					};
+				};
+			};
+			buildConfigurationList = E79A69461CCA0D2B0065EB15 /* Build configuration list for PBXProject "SwingShip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79A69421CCA0D2B0065EB15;
+			productRefGroup = E79A694C1CCA0D2B0065EB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79A694A1CCA0D2B0065EB15 /* SwingShip */,
+				E79A69631CCA0D2B0065EB15 /* SwingShipTests */,
+				E79A696E1CCA0D2B0065EB15 /* SwingShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79A69491CCA0D2B0065EB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A695E1CCA0D2B0065EB15 /* LaunchScreen.storyboard in Resources */,
+				E79A69871CCA12170065EB15 /* 1.png in Resources */,
+				E79A69881CCA12170065EB15 /* 2.png in Resources */,
+				E79A69891CCA12170065EB15 /* 3.png in Resources */,
+				E77B0F561CCDB9C0009DC347 /* Sharazan.mp3 in Resources */,
+				E79A695B1CCA0D2B0065EB15 /* Assets.xcassets in Resources */,
+				E79A69591CCA0D2B0065EB15 /* Main.storyboard in Resources */,
+				E79A698B1CCA12170065EB15 /* ship.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A69621CCA0D2B0065EB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A696D1CCA0D2B0065EB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79A69471CCA0D2B0065EB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A69561CCA0D2B0065EB15 /* ViewController.m in Sources */,
+				E79A69531CCA0D2B0065EB15 /* AppDelegate.m in Sources */,
+				E79A69501CCA0D2B0065EB15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A69601CCA0D2B0065EB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A69691CCA0D2B0065EB15 /* SwingShipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A696B1CCA0D2B0065EB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A69741CCA0D2B0065EB15 /* SwingShipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79A69661CCA0D2B0065EB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79A694A1CCA0D2B0065EB15 /* SwingShip */;
+			targetProxy = E79A69651CCA0D2B0065EB15 /* PBXContainerItemProxy */;
+		};
+		E79A69711CCA0D2B0065EB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79A694A1CCA0D2B0065EB15 /* SwingShip */;
+			targetProxy = E79A69701CCA0D2B0065EB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79A69571CCA0D2B0065EB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A69581CCA0D2B0065EB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79A695C1CCA0D2B0065EB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A695D1CCA0D2B0065EB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79A69761CCA0D2B0065EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E79A69771CCA0D2B0065EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79A69791CCA0D2B0065EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E79A697A1CCA0D2B0065EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E79A697C1CCA0D2B0065EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwingShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwingShip.app/SwingShip";
+			};
+			name = Debug;
+		};
+		E79A697D1CCA0D2B0065EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwingShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwingShip.app/SwingShip";
+			};
+			name = Release;
+		};
+		E79A697F1CCA0D2B0065EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwingShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwingShip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E79A69801CCA0D2B0065EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwingShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SwingShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwingShip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79A69461CCA0D2B0065EB15 /* Build configuration list for PBXProject "SwingShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A69761CCA0D2B0065EB15 /* Debug */,
+				E79A69771CCA0D2B0065EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A69781CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A69791CCA0D2B0065EB15 /* Debug */,
+				E79A697A1CCA0D2B0065EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A697B1CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A697C1CCA0D2B0065EB15 /* Debug */,
+				E79A697D1CCA0D2B0065EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A697E1CCA0D2B0065EB15 /* Build configuration list for PBXNativeTarget "SwingShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A697F1CCA0D2B0065EB15 /* Debug */,
+				E79A69801CCA0D2B0065EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79A69431CCA0D2B0065EB15 /* Project object */;
+}
